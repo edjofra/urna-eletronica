@@ -1,19 +1,67 @@
-.titulo {
-    font-size: 20px;
-    color: #151544;
-    margin: 5px;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-.subtitulo {
-    font-size: 10px;
+
+h1 {
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    color: #3D9DB3;
+}
+h2 {
+    font-size: 15px;
     color: rgb(61, 57, 57);
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 .tela {
+    background-color: whitesmoke;
     border: 2px solid red;
     width: 100%;
     height: 500px;
 }
 .login {
-    border: 2px solid black;
-    width: 300px;
-    height: 200px;
+    background-color: white;
+    border: 1px solid #3D9DB3;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 0 0 1em #183d46;
+    
+}
+.cadastra-se{
+    color: #3D9DB3;
+    font-weight: bold;
+    background-color: white;
+    border:1px solid gray;
+    padding: 3px;
+    cursor:pointer;
+}
+
+.cadastra-se:hover{
+    background-color:whitesmoke;
+}
+.logar{
+    color: white;
+    background-color: #3D9DB3;
+    font-weight: bold;
+    font-size: 17px;
+    border:0px;
+    padding: 5px;
+    width: 100%;
+    cursor:pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+.logar:hover{
+    background-color: #2c7383;    
+}
+
+.input{
+    font-size: 17px;
+    padding: 5px;
+    width: 96%;
+    margin-right: 5px;
 }
